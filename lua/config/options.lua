@@ -1,12 +1,18 @@
-vim.opt.number = true
-vim.opt.relativenumber = true
-vim.opt.cursorline = true
+local opt = vim.opt
 
-vim.opt.expandtab = true
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
+opt.number = true
+opt.relativenumber = true
+opt.cursorline = true
+opt.wrap = false
 
-vim.opt.autoread = true
+opt.expandtab = true
+opt.tabstop = 4
+opt.softtabstop = 4
+opt.shiftwidth = 4
 
-vim.opt.splitbelow = true
-vim.opt.splitright = true
+opt.autoread = true
+opt.mouse = ""
+opt.clipboard = "unnamedplus"
+
+opt.splitbelow = true
+opt.splitright = true
